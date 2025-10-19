@@ -1,2 +1,5 @@
 # Računalniški praktikum
-Ctrl+T: v brskalniku odpre nov zavihek; Ctrl+W: zapre zavihek; Ctrl+Shift+N: odpre novo okno;
+
+- V brskalniku odpre nov zavihek: Ctrl+T
+- Zapre zavihek: Ctrl+W
+- Odpre novo okno: Ctrl+Shift+N
