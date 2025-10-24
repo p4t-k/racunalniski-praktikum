@@ -19,6 +19,33 @@ body {
     text-align: justify;
 }
 
+h1 { color: #153030; }
+
+h2 {
+    margin-top: 2em #AAAAAA solid;
+    border-top: 1px;
+    padding-top: 0.5em;
+}
+
+
+.slika {
+    font-size: 0.9em;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 2em;
+    float: right;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+}
+
+#uvod {
+    padding: 2em;
+    background-color: rgb(51, 0, 102, 0.1);
+}
+
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
