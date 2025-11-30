@@ -1,0 +1,25 @@
+This is the distribution directory for QTREE, a LaTeX package for
+drawing tree diagrams. Qtree allows trees to be specified in a simple 
+bracket notation, automatically calculates branch sizes, and supports 
+both DVI/PostScript and PDF output.
+
+This is Qtree version 3.1b, 12 December 2008. Qtree is distributed 
+under the LaTeX Project Public License (LPPL).
+
+
+*** Source files:
+
+qtree.sty	The style file
+qtreenotes.tex  The documentation
+qarrows.tex     Additional info on drawing movement arrows
+
+
+*** Formatted versions of the documentation:
+
+qtreenotes.pdf
+qtreearrows.pdf
+
+
+Alexis Dimitriadis (alexis@ling.upenn.edu)
+
+
