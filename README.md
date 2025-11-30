@@ -3,6 +3,9 @@
 <!-- To je komentar, ki bo na prikazanem Markdown-u skrit. 
      V tem besedilu so v komentarjih napisana navodila za reševanje. -->
 
+## Spletna stran
+https://p4t-k.github.io/
+
 <!-- 2. nivojski razdelek -->
 ## Bližnjice na tipkovnici
 
