@@ -1,0 +1,64 @@
+\begin{frame}{Zaporedja, vrste in limite}
+	\begin{enumerate}
+		\item 
+		Naj bo $\sum_{n=1}^{\infty}a_n$ absolutno konvergentna vrsta in $a_n \ne -1$.
+		Dokaži, da je tudi vrsta $\sum_{n=1}^\infty \frac{a_n}{1+a_n}$
+		absolutno konvergentna.
+
+		\item
+		Izračunaj limito
+		$$\lim_{x\to\infty}(\sin\sqrt{x+1}-\sin\sqrt{x})$$
+
+		\item
+		Za dani zaporedji preveri, ali sta konvergentni.
+		% Pomagajte si s spodnjima delno pripravljenima matematičnima izrazoma:
+		$$a_n=\underbrace{\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}_\text{$n$ korenov} \qquad b_n = \underbrace{\sin(\sin(\dots(\sin 1)\dots))}_\text{$n$ sinusov}$$
+		
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Algebra}
+	\begin{enumerate}
+		\item
+		Vektorja $\vec{c}=\vec{a}+2\vec{b}$ in $\vec{d}=\vec{a}-\vec{b}$
+		sta pravokotna in imata dolžino 1. Določi kot med vektorjema $\vec{a}$ in $\vec{b}$.
+		\item 
+		Izračunaj $\displaystyle\binom{1\quad2\quad3\quad4\quad5\quad6}{4\quad5\quad2\quad6\quad3\quad1}^{-2000}$
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{Velika determinanta}
+	Izračunaj naslednjo determinanto $2n \times 2n$, ki ima na neoznačenih mestih ničle.
+	$$\begin{vmatrix}
+		1 & & & & 1 & & & & \\
+		 & 2 & & & 2 & & & & \\
+		 & & \ddots & & \vdots & & & & \\
+		 & & & n-1 & n-1 & & & & \\
+		1 & 2 & \dots & n-1 & n & n+1 & n+2 & \dots & 2n \\
+		 & & & & n+1 & n+1 & & & \\
+		 & & & & n+2 & & n+2 & & \\
+		 & & & & \vdots & & & \ddots & \\
+		 & & & & 2n & & & & 2n \\
+	\end{vmatrix}$$
+\end{frame}
+
+\begin{frame}{Grupe}
+	Naj bo
+	\begin{equation*}
+	\begin{split}
+	G&=\{z\in\CC;\ z=2^k(\cos(m\pi\sqrt{2})+i\sin(m\pi\sqrt{2})),k,m\in\ZZ\} \\
+	H&=\{(x,y)\in\RR^2;\ x,y\in\ZZ\}
+	\end{split}
+\end{equation*}
+	\begin{enumerate}
+		\item
+			Pokaži, da je $G$ podgrupa v grupi $(\CC\setminus\{0\},\cdot)$ neničelnih kompleksnih števil za običajno množenje.
+		\item
+			Pokaži, da je $H$ podgrupa v aditivni grupi $(\RR^2,+)$
+			ravninskih vektorjev za običajno seštevanje po komponentah.
+		\item
+			Pokaži, da je preslikava $f:H\to G$, podana s pravilom
+			$$(x,y)\mapsto 2^x(\cos(y\pi\sqrt{2})+i\sin(y\pi\sqrt{2}))$$
+			izomorfizem grup $G$ in $H$.
+	\end{enumerate}
+\end{frame}
